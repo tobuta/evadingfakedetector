@@ -24,3 +24,13 @@ we conduct a comprehensive evaluation based on 4 generation methods. The generat
 2. Place the detection model code in the `./model` directory. Follow the `resnet50.py` example inside the `./model` folder to add hooks for obtaining the mmd loss.
 3. Run `demo.py` to generate adversarial examples.
 
+# Bibtex
+```
+@inproceedings{hou2023evading,
+  title={Evading DeepFake Detectors via Adversarial Statistical Consistency},
+  author={Hou, Yang and Guo, Qing and Huang, Yihao and Xie, Xiaofei and Ma, Lei and Zhao, Jianjun},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={12271--12280},
+  year={2023}
+}
+```
