@@ -27,8 +27,8 @@ class resnet50(nn.Module):
         #norm_layer = Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 
         res = timm.create_model('resnet50', num_classes=1)
-        resPath = '/houyang/ns235x/weights/blur_jpg_prob0.5.pth'
-        res_state_dict = torch.load(resPath)
+        model_weight_Path = '/weights/xxxx.pth'
+        res_state_dict = torch.load(model_weight_Path)
         res.load_state_dict(res_state_dict['model'])
 
         self.model = nn.Sequential(
