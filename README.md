@@ -21,6 +21,6 @@ we conduct a comprehensive evaluation based on 4 generation methods. The generat
 
 # Usage
 1. Clone this repository and install the required modules as listed in `requirements.txt`.
-2. Place the detection model code in the `model` directory. Follow the `resnet50` example inside the `model` folder to add hooks for obtaining the mmd loss.
+2. Place the detection model code in the `./model` directory. Follow the `resnet50.py` example inside the `./model` folder to add hooks for obtaining the mmd loss.
 3. Run `demo.py` to generate adversarial samples.
 
