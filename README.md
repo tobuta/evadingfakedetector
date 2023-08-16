@@ -1,6 +1,6 @@
 # Evadingfakedetector
 We propose a statistical consistency attack (StatAttack) against diverse DeepFake detectors.
-
+![Alt text](./utils/StatAttack.jpg)
 # Requirements
 - numpy==1.24.1
 - opencv_python==4.8.0.76
